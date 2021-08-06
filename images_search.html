@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Images</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="nav">
+            <a href="index.html">Google Search</a>
+            <a href="advance_search.html">Advanced Search</a>
+            <a class="btn bg-blue" href="#">Sign in</a>
+        </div>
+    </header>
+    
+    <!-- MAIN  -->
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo-Google.png" alt="google">
+            <div>
+                <p>images</p>
+            </div>
+        </div>
+    
+        <div class="main">
+            <form action="https://google.com/search">
+                <div class="text">
+                    <div class="search"><span><i class="fas fa-search"></i></span></div>
+                    <div class="field">
+                        <input class="text-field" type="text" name="q" required autocapitalize="off" autocomplete="off" autofocus placeholder="Search">
+                    </div>
+                    <div class="voice"><span><i class="fas fa-microphone"></i></span></div>
+                    <br>
+                    <div class="buttons2">
+                        <input type="hidden" name="tbm" value="isch">
+                        <!-- <input class="search-btn" type="submit" value="Image Search"> -->
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="foot">
+            <p>All rights reserved.<span>Erick Felipa<sup>&copy;</sup></span></p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/5c48d656d8.js" crossorigin="anonymous"></script>
+</body>
+</html>

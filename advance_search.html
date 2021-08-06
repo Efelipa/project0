@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Search</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="nav">
+            <a href="index.html">Google Search</a>
+            <a href="images_search.html">Google Images</a>
+            <a class="btn bg-blue" href="#">Sign in</a>
+        </div>
+    </header>
+    <!-- TITLE -->
+    <div class="title">
+        <div class="container-form">
+            <h2>Advanced Search</h2>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="container-form">
+        <form action="https://google.com/search">
+            <div class="row">
+                <div>
+                    <p>Find pages with...</p>
+                </div>
+                <div class="space"></div>
+                <div class="para"><span><b>To do this in the search box.</b></span></div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="word">all these words:</label>
+                </div>
+                <div class="inp">
+                    <input type="text" autocomplete="off" name="q" id="word">
+                </div>
+                <div class="para">
+                    <span>Type the important words:</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="phrase">this exactword of phrase:</label>
+                </div>
+                <div class="inp">
+                    <input type="text" autocomplete="off" name="as_epq" id="phrase">
+                </div>
+                <div class="para">
+                    <span>Put exact words in quotes:</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="any">any of these words</label>
+                </div>
+                <div class="inp">
+                    <input type="text" autocomplete="off" name="as_oq" id="any">
+                </div>
+                <div class="para">
+                    <span>Type OR between all the words you want</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="none">none of these words:</label>
+                </div>
+                <div class="inp">
+                    <input type="text" autocomplete="off" name="as_eq" id="none">
+                </div>
+                <div class="para">
+                    <span>Put a minus sign just before words that you don't want:</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="number">number ranging from:</label>
+                </div>
+                <div class="grid">
+                    <div class="inp "><input type="text" autocomplete="off" name="as_nlo" id="number"></div>
+                    <div>to</div>
+                    <div class="inp "><input type="text" autocomplete="off" name="as_nhi" ></div>
+                </div>
+                <div class="para">
+                    <span>Put two full stops between the numbers and add a unit of measurement:</span>
+                </div>
+            </div>
+            
+            <br>
+
+            <div class="row">
+                <div>
+                    <p>Then narrow your results</p>
+                </div>
+                <div class="space"></div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="lenguage">lenguage:</label>
+                </div>
+                <div class="inp">
+                    <select name="" id="lenguage">
+                        <option value="any" selected>any</option>
+
+                    </select>
+                </div>
+                <div class="para">
+                    <span>Find pages in the language that you select.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="region">region:</label>
+                </div>
+                <div class="inp">
+                    <select name="" id="region">
+                        <option value="any" selected>any</option>
+
+                    </select>
+                </div>
+                <div class="para">
+                    <span>Find pages published in a particular region.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="update">last update:</label>
+                </div>
+                <div class="inp">   
+                    <select name="" id="update">
+                        <option value="any" selected>any</option>
+
+                    </select>
+                </div>
+                <div class="para">
+                    <span>Find pages updated within the time that you specify.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="domain">site or domain:</label>
+                </div>
+                <div class="inp">
+                    <input type="text" autocomplete="off" name="" id="domain">
+                </div>
+                <div class="para">
+                    <span>Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="terms">terms appearing:</label>
+                </div>
+                <div class="inp">
+                    <select name="" id="terms">
+                        <option value="any" selected>any</option>
+
+                    </select>
+                </div>
+                <div class="para">
+                    <span>Search for terms in the whole page, page title or web address, or links to the page you're looking for.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="safe"><a href="#">SafeSearch:</a></label>
+                </div>
+                <div class="inp">
+                    <select name="" id="safe">
+                        <option value="any" selected>any</option>
+
+                    </select>
+                </div>
+                <div class="para">
+                    <span>Tell SafeSearch whether to filter sexually explicit content.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="file">file type:</label>
+                </div>
+                <div class="inp">
+                    <select name="" id="file">
+                        <option value="any" selected>any</option>
+
+                    </select>
+                </div>
+                <div class="para">
+                    <span>Find pages in the format that you prefer.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="usage"><a href="#">usage rights:</a></label>
+                </div>
+                <div class="inp">
+                    <select name="" id="usage">
+                        <option value="any" selected>any</option>
+
+                    </select>
+                </div>
+                <div class="para">
+                    <span>Find pages that you are free to use yourself.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div></div>
+                <div class="space submit">
+                    <button class="btn bg-blue">Advance search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="foot">
+            <p>All rights reserved.<span>Erick Felipa<sup>&copy;</sup></span></p>
+        </div>
+    </footer>
+</body>
+</html>
